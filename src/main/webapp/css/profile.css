@@ -1,0 +1,111 @@
+/* Full-width input fields */
+.modal-info input[type=text], .modal-info input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+
+.modal-info button {
+    background-color: #75c2f4;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.modal-info button:hover {
+	opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.modal-info .cancelbtn {
+	background-color: #c6c6c6;
+}
+
+/* Center the image and position the close button */
+.modal-info .imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+	position: relative;
+}
+
+.modal-info img.avatar {
+	width: 40%;
+	border-radius: 50%;
+}
+
+.modal-info .container {
+	width: 100%;
+
+}
+
+.modal-info span.psw {
+	float: right;
+	padding-top: 16px;
+}
+
+
+/* modal-info Content/Box */
+.modal-info .modal-info-content {
+	padding: 1%;
+	background-color: #fefefe;
+	margin: 15% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 50%; /* Could be more or less, depending on screen size */
+	color: #6c6d70;
+	text-align: left;
+	font-size: 1.2em;
+}
+
+/* The Close Button (x) */
+.modal-info .close {
+	position: absolute;
+	right: 25px;
+	top: 0;
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+
+.modal-info .close:hover,
+.modal-info .close:focus {
+	color: red;
+	cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+	from {-webkit-transform: scale(0)}
+	to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+	span.psw {
+		display: block;
+		float: none;
+	}
+	.cancelbtn {
+		width: 100%;
+	}
+}
+
+.input-group { font-size: 14px !important; }

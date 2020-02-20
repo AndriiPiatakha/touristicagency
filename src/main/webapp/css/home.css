@@ -1,0 +1,82 @@
+body{
+	overflow:hidden;
+	font-family:normal_text;
+}
+
+.login-menu{
+	margin-top: 10%;
+}
+.btn{
+		font-size: 1.5em;
+		font-family:bold_text;
+}
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row{
+    overflow: hidden;
+}
+.carousel-inner{
+	   height: 100vh;
+	 
+}
+.carousel-inner > .item > img {
+  width:100%;
+  min-height:100%;
+}
+.carousel-indicators li { 
+visibility: hidden; 
+}
+
+.right.carousel-control, .left.carousel-control {
+    display: none;
+}
+
+@font-face {
+    font-family: quote;
+    src: url(../fonts/Billy_Ohio.ttf);
+}
+@font-face {
+    font-family: normal_text;
+    src: url(../fonts/timeburnernormal.ttf);
+}
+@font-face {
+    font-family: bold_text;
+    src: url(../fonts/timeburnerbold.ttf);
+}
+
+.quote{
+	margin-top: 10%;
+	font-family:quote;
+	font-size: 8em;
+}
+
+
+
